@@ -41,14 +41,14 @@ export default function Authorization() {
             className={`${styles["auth-button"]} h-[50px] text-[16px]`}
             onClick={() => navigate("/login")}
           >
-            Log In
+            Proceed
           </Button>
           <Button
             className={`${styles["auth-button"]} h-[50px] text-[16px]`}
             variant={"outlined"}
             onClick={() => navigate("/signup")}
           >
-            Sign Up
+            Sign Up (under development)
           </Button>
         </div>
       </div>
