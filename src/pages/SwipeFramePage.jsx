@@ -20,7 +20,7 @@ export default function SwipeFramePage() {
         }}
       >
         <div style={{ position: "absolute" }}>
-          <UpperNavigation />
+          <UpperNavigation to={"/authorization"} />
         </div>
         <ButtonGroup />
       </div>
