@@ -14,10 +14,17 @@ export default function Login() {
   return (
     <>
       <UpperNavigation />
-      <div className="w-full flex flex-col items-center justify-center h-screen">
-        <Canvas className="" style={{ height: "35%" }}>
+      <div className="w-full flex flex-col items-center justify-center">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <Canvas className="" style={{ height: "20rem" }}>
           <OrbitControls />
-          <PerspectiveCamera makeDefault fov={90} position={[0, 0, 5]} />
+          <PerspectiveCamera makeDefault fov={98} position={[0, 0, 5]} />
           <Tool />
         </Canvas>
         <Navigation />
