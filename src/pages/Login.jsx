@@ -13,7 +13,7 @@ import SearchBar from "../components/Reusable/SearchBar";
 export default function Login() {
   return (
     <>
-      <UpperNavigation />
+      <UpperNavigation to={"/authorization"} />
       <div className="w-full flex flex-col items-center justify-center">
         <br />
         <br />

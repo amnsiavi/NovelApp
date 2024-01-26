@@ -1,7 +1,12 @@
 import BackButton from "../../Reusable/BackButton";
 import styles from "../../../styles/styles.module.css";
 import { LuBellRing } from "react-icons/lu";
-export default function UpperNavigation() {
+import PropTypes from "prop-types";
+
+UpperNavigation.propTypes = {
+  to: PropTypes.string,
+};
+export default function UpperNavigation({ to }) {
   return (
     <>
       <div
@@ -13,7 +18,7 @@ export default function UpperNavigation() {
           gap: "75px",
         }}
       >
-        <BackButton />
+        <BackButton to={to} />
         <h2
           className={`${styles.Avenir} ${styles["upper-navigation-text-2"]}`}
           style={{}}
