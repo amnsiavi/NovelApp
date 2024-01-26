@@ -48,7 +48,7 @@ export default function Authorization() {
             variant={"outlined"}
             onClick={() => navigate("/signup")}
           >
-            Sign Up (under development)
+            Swipe Frame (under development)
           </Button>
         </div>
       </div>
