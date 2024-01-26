@@ -7,11 +7,15 @@ import image2 from "../assets/image 8.jpg";
 import image3 from "../assets/image 12.jpg";
 import image4 from "../assets/image 13.jpg";
 import image5 from "../assets/image 47.jpg";
+import UpperNavigation from "../components/PageSpecific/SwpieFrame/UpperNavigation";
+import SearchBar from "../components/Reusable/SearchBar";
+
 export default function Login() {
   return (
     <>
+      <UpperNavigation />
       <div className="w-full flex flex-col items-center justify-center h-screen">
-        <Canvas className="" style={{ height: "40%" }}>
+        <Canvas className="" style={{ height: "35%" }}>
           <OrbitControls />
           <PerspectiveCamera makeDefault fov={90} position={[0, 0, 5]} />
           <Tool />
